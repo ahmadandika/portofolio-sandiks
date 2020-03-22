@@ -4,10 +4,7 @@ const withFonts = require('next-fonts');
 const withPlugins = require('next-compose-plugins');
 const optimizedImages = require('next-optimized-images');
 const webpack = require('webpack');
-const DotEnv = require('dotenv');
 const path = require('path');
-
-DotEnv.config();
 
 module.exports = withPlugins(
   [
