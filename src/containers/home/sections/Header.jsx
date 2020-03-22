@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'reactstrap';
+import Reveal from 'react-reveal/Reveal';
 
 const Header = () => {
   const pageHeader = React.createRef();
@@ -34,8 +35,10 @@ const Header = () => {
           <div className="photo-container">
             <img alt="..." src={require('@images/my_photo.jpg')} />
           </div>
-          <h3 className="title">Ahmad Andika</h3>
-          <p className="category">Front-end Web Developer</p>
+          <Reveal effect="fadeInUp" ssrFadeout>
+            <h3 className="title">Ahmad Andika</h3>
+            <p className="category">Front-end Web Developer</p>
+          </Reveal>
         </Container>
       </div>
     </>

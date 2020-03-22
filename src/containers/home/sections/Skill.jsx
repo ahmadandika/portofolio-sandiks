@@ -1,15 +1,13 @@
 import React from 'react';
-
-// reactstrap components
+import Fade from 'react-reveal/Fade';
 import { Progress, Container, Row, Col } from 'reactstrap';
 
 // core components
 
-const Skill = () => {
-  const [pills, setPills] = React.useState('2');
-  return (
-    <>
-      <div className="" id="skills">
+const Skill = () => (
+  <>
+    <div className="" id="skills">
+      <Fade ssrFadeout top>
         <h3 className="title">Skills</h3>
         <Container>
           <Row>
@@ -77,9 +75,9 @@ const Skill = () => {
           <br />
           <div className="space" />
         </Container>
-      </div>
-    </>
-  );
-};
+      </Fade>
+    </div>
+  </>
+);
 
 export default Skill;

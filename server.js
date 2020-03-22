@@ -17,7 +17,7 @@ app.prepare().then(() => {
 
   server.use(
     '/images',
-    express.static(path.join(__dirname, 'images'), {
+    express.static(path.join(__dirname, 'src/assets/images'), {
       maxAge: dev ? '0' : '365d'
     })
   );
