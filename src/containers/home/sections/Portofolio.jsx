@@ -65,6 +65,30 @@ const Portofolio = () => {
           </TabPane>
         </TabContent>
       </Row>
+      <Row>
+        <Col className="ml-auto mr-auto" md="8">
+          <h4 className="title text-center" id="portofolio">
+            Portfolio Source Code
+          </h4>
+          <div className="nav-align-center">
+            <ul className="list-group">
+              <li className="list-group-item">
+                <div className="d-flex justify-content-between">
+                  <div>My Portofolio (next js)</div>
+                  <div>
+                    <a
+                      href="https://github.com/ahmadandika/portofolio-sandiks"
+                      target="_blank"
+                    >
+                      https://github.com/ahmadandika/portofolio-sandiks
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </Col>
+      </Row>
     </>
   );
 };
