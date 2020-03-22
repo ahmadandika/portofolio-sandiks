@@ -38,7 +38,7 @@ const FollowMe = () => (
       <Button
         className="btn-round btn-icon"
         color="default"
-        id="tooltip340339231"
+        id="tooltip340339233"
         size="lg"
         onClick={() => {
           window.open(
@@ -48,7 +48,7 @@ const FollowMe = () => (
       >
         <i className="fab fa-linkedin" />
       </Button>
-      <UncontrolledTooltip delay={0} target="tooltip340339231">
+      <UncontrolledTooltip delay={0} target="tooltip340339233">
         Follow me on Linkedin
       </UncontrolledTooltip>
     </div>

@@ -8,6 +8,8 @@ import {
   Row,
   Col
 } from 'reactstrap';
+import PortofolioWeb from './portofolio/PortofolioWeb';
+import PortofolioAdmin from './portofolio/PortofolioAdmin';
 
 const Portofolio = () => {
   const [pills, setPills] = React.useState('1');
@@ -16,7 +18,9 @@ const Portofolio = () => {
     <>
       <Row>
         <Col className="ml-auto mr-auto" md="6">
-          <h4 className="title text-center">My Portfolio</h4>
+          <h4 className="title text-center" id="portofolio">
+            My Portfolio
+          </h4>
           <div className="nav-align-center">
             <Nav
               className="nav-pills-info nav-pills-just-icons"
@@ -54,74 +58,10 @@ const Portofolio = () => {
         </Col>
         <TabContent className="gallery" activeTab={`pills${pills}`}>
           <TabPane tabId="pills1">
-            <Col className="ml-auto mr-auto" md="12">
-              <Row className="collections">
-                <Col md="6">
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require('@images/portofolio/header/legocar.png')}
-                  />
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require('@images/portofolio/header/kaptiva.png')}
-                  />
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require('@images/portofolio/header/loccitane.png')}
-                  />
-                </Col>
-                <Col md="6">
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require('@images/portofolio/header/cbn.png')}
-                  />
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require('@images/portofolio/header/gonegolfing.png')}
-                  />
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require('@images/portofolio/header/amartha.png')}
-                  />
-                </Col>
-              </Row>
-            </Col>
+            <PortofolioWeb />
           </TabPane>
           <TabPane tabId="pills2">
-            <Col className="ml-auto mr-auto" md="10">
-              <Row className="collections">
-                <Col md="6">
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require('@images/bg6.jpg')}
-                  />
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require('@images/bg11.jpg')}
-                  />
-                </Col>
-                <Col md="6">
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require('@images/bg7.jpg')}
-                  />
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require('@images/bg8.jpg')}
-                  />
-                </Col>
-              </Row>
-            </Col>
+            <PortofolioAdmin />
           </TabPane>
         </TabContent>
       </Row>

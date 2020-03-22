@@ -9,7 +9,7 @@ const Skill = () => {
   const [pills, setPills] = React.useState('2');
   return (
     <>
-      <div className="">
+      <div className="" id="skills">
         <h3 className="title">Skills</h3>
         <Container>
           <Row>
@@ -61,9 +61,9 @@ const Skill = () => {
                 </Progress>
               </div>
               <div className="progress-container progress-info">
-                <span className="progress-badge">Linux</span>
-                <Progress max="100" value="60">
-                  <span className="progress-value">60%</span>
+                <span className="progress-badge">Next JS</span>
+                <Progress max="100" value="95">
+                  <span className="progress-value">95%</span>
                 </Progress>
               </div>
               <div className="progress-container progress-warning">

@@ -78,9 +78,9 @@ function IndexNavbar() {
             <Nav navbar>
               <NavItem>
                 <NavLink
-                  href="#pablo"
-                  onClick={e => {
-                    e.preventDefault();
+                  href="javascript::void();"
+                  onClick={() => {
+                    Router.push('/#');
                   }}
                 >
                   <i className="now-ui-icons arrows-1_cloud-download-93" />
@@ -89,20 +89,35 @@ function IndexNavbar() {
               </NavItem>
 
               <NavItem>
-                <NavLink href="#about">
+                <NavLink
+                  href="javascript::void();"
+                  onClick={() => {
+                    Router.push('/#about');
+                  }}
+                >
                   <i className="now-ui-icons business_badge" />
                   <p>About</p>
                 </NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink href="#skill">
+                <NavLink
+                  href="javascript::void();"
+                  onClick={() => {
+                    Router.push('/#skills');
+                  }}
+                >
                   <i className="now-ui-icons ui-2_settings-90" />
                   <p>Skill</p>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#about">
+                <NavLink
+                  href="javascript::void();"
+                  onClick={() => {
+                    Router.push('/#portofolio');
+                  }}
+                >
                   <i className="now-ui-icons files_paper" />
                   <p>Portofolio</p>
                 </NavLink>
