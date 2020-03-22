@@ -10,7 +10,7 @@ import {
 } from 'reactstrap';
 
 const Portofolio = () => {
-  const [pills, setPills] = React.useState('2');
+  const [pills, setPills] = React.useState('1');
 
   return (
     <>
@@ -25,14 +25,15 @@ const Portofolio = () => {
             >
               <NavItem>
                 <NavLink
-                  className={pills === '1' ? 'active' : ''}
+                  className={pills === '1' ? 'active mr-5' : ' mr-5'}
                   href="#pablo"
                   onClick={e => {
                     e.preventDefault();
                     setPills('1');
                   }}
                 >
-                  <i className="now-ui-icons design_image" />
+                  <i className="now-ui-icons location_world" />
+                  <span style={{ color: '#444' }}>Website</span>
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -44,19 +45,8 @@ const Portofolio = () => {
                     setPills('2');
                   }}
                 >
-                  <i className="now-ui-icons location_world" />
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  className={pills === '3' ? 'active' : ''}
-                  href="#pablo"
-                  onClick={e => {
-                    e.preventDefault();
-                    setPills('3');
-                  }}
-                >
-                  <i className="now-ui-icons sport_user-run" />
+                  <i className="now-ui-icons business_chart-bar-32" />
+                  <span style={{ color: '#444' }}>Admin</span>
                 </NavLink>
               </NavItem>
             </Nav>
@@ -64,30 +54,40 @@ const Portofolio = () => {
         </Col>
         <TabContent className="gallery" activeTab={`pills${pills}`}>
           <TabPane tabId="pills1">
-            <Col className="ml-auto mr-auto" md="10">
+            <Col className="ml-auto mr-auto" md="12">
               <Row className="collections">
                 <Col md="6">
                   <img
                     alt="..."
                     className="img-raised"
-                    src={require('@images/bg1.jpg')}
+                    src={require('@images/portofolio/header/legocar.png')}
                   />
                   <img
                     alt="..."
                     className="img-raised"
-                    src={require('@images/bg3.jpg')}
+                    src={require('@images/portofolio/header/kaptiva.png')}
+                  />
+                  <img
+                    alt="..."
+                    className="img-raised"
+                    src={require('@images/portofolio/header/loccitane.png')}
                   />
                 </Col>
                 <Col md="6">
                   <img
                     alt="..."
                     className="img-raised"
-                    src={require('@images/bg8.jpg')}
+                    src={require('@images/portofolio/header/cbn.png')}
                   />
                   <img
                     alt="..."
                     className="img-raised"
-                    src={require('@images/bg7.jpg')}
+                    src={require('@images/portofolio/header/gonegolfing.png')}
+                  />
+                  <img
+                    alt="..."
+                    className="img-raised"
+                    src={require('@images/portofolio/header/amartha.png')}
                   />
                 </Col>
               </Row>
@@ -118,36 +118,6 @@ const Portofolio = () => {
                     alt="..."
                     className="img-raised"
                     src={require('@images/bg8.jpg')}
-                  />
-                </Col>
-              </Row>
-            </Col>
-          </TabPane>
-          <TabPane tabId="pills3">
-            <Col className="ml-auto mr-auto" md="10">
-              <Row className="collections">
-                <Col md="6">
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require('@images/bg3.jpg')}
-                  />
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require('@images/bg8.jpg')}
-                  />
-                </Col>
-                <Col md="6">
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require('@images/bg7.jpg')}
-                  />
-                  <img
-                    alt="..."
-                    className="img-raised"
-                    src={require('@images/bg6.jpg')}
                   />
                 </Col>
               </Row>

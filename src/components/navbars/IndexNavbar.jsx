@@ -45,7 +45,7 @@ function IndexNavbar() {
           }}
         />
       ) : null}
-      <Navbar className={`fixed-top ${navbarColor}`} expand="lg" color="info">
+      <Navbar className={`fixed-top ${navbarColor}`} expand="lg" color="dark">
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
@@ -54,7 +54,7 @@ function IndexNavbar() {
                 Router.push('/');
               }}
             >
-              My Resume
+              My Portofolio
             </NavbarBrand>
             <button
               className="navbar-toggler navbar-toggler"
@@ -90,20 +90,20 @@ function IndexNavbar() {
 
               <NavItem>
                 <NavLink href="#about">
-                  <i className="now-ui-icons arrows-1_cloud-download-93" />
+                  <i className="now-ui-icons business_badge" />
                   <p>About</p>
                 </NavLink>
               </NavItem>
 
               <NavItem>
                 <NavLink href="#skill">
-                  <i className="now-ui-icons arrows-1_cloud-download-93" />
+                  <i className="now-ui-icons ui-2_settings-90" />
                   <p>Skill</p>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#about">
-                  <i className="now-ui-icons arrows-1_cloud-download-93" />
+                  <i className="now-ui-icons files_paper" />
                   <p>Portofolio</p>
                 </NavLink>
               </NavItem>
