@@ -19,6 +19,12 @@ const listOne = [
     img: 'admin-daxium-chat.png',
     title: 'Daxium Admin Chat',
     tag: ['React JS', 'SCSS', 'HTML', 'REST API', 'Firebase']
+  },
+  {
+    id: 4,
+    img: 'admin-ninkatec.png',
+    title: 'Ninkatec',
+    tag: ['React JS', 'SCSS', 'HTML', 'REST API', 'Socket.io']
   }
 ];
 
