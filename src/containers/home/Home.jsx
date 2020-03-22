@@ -6,6 +6,7 @@ import DefaultFooter from '@components/footers/DefaultFooter';
 import About from './sections/About';
 import FollowMe from './sections/FollowMe';
 import Portofolio from './sections/Portofolio';
+import Skill from './sections/Skill';
 
 const Home = () => {
   const cleanup = () => {
@@ -31,6 +32,7 @@ const Home = () => {
           <Container>
             <FollowMe />
             <About />
+            <Skill />
             <Portofolio />
           </Container>
         </div>
