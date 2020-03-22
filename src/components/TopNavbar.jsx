@@ -1,6 +1,5 @@
 import React from 'react';
 import Router from 'next/router';
-// reactstrap components
 import {
   Collapse,
   NavbarBrand,
@@ -11,7 +10,7 @@ import {
   Container
 } from 'reactstrap';
 
-function IndexNavbar() {
+const TopNavbar = () => {
   const [navbarColor, setNavbarColor] = React.useState('navbar-transparent');
   const [collapseOpen, setCollapseOpen] = React.useState(false);
   React.useEffect(() => {
@@ -51,7 +50,7 @@ function IndexNavbar() {
             <NavbarBrand
               href="javascript::void();"
               onClick={() => {
-                Router.push('/');
+                Router.push('/#');
               }}
             >
               My Portofolio
@@ -76,18 +75,6 @@ function IndexNavbar() {
             navbar
           >
             <Nav navbar>
-              <NavItem>
-                <NavLink
-                  href="javascript::void();"
-                  onClick={() => {
-                    Router.push('/#');
-                  }}
-                >
-                  <i className="now-ui-icons arrows-1_cloud-download-93" />
-                  <p>Beranda</p>
-                </NavLink>
-              </NavItem>
-
               <NavItem>
                 <NavLink
                   href="javascript::void();"
@@ -128,6 +115,6 @@ function IndexNavbar() {
       </Navbar>
     </>
   );
-}
+};
 
-export default IndexNavbar;
+export default TopNavbar;

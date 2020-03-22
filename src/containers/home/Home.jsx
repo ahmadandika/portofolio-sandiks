@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
-import IndexNavbar from '@components/navbars/IndexNavbar';
-import ProfilePageHeader from '@components/headers/ProfilePageHeader';
 import { Container } from 'reactstrap';
-import DefaultFooter from '@components/footers/DefaultFooter';
+import Footer from '@components/Footer';
+import TopNavbar from '@components/TopNavbar';
 import About from './sections/About';
 import FollowMe from './sections/FollowMe';
 import Portofolio from './sections/Portofolio';
 import Skill from './sections/Skill';
+import Header from './sections/Header';
 
 const Home = () => {
   const cleanup = () => {
@@ -25,9 +25,9 @@ const Home = () => {
 
   return (
     <>
-      <IndexNavbar />
+      <TopNavbar />
       <div className="wrapper">
-        <ProfilePageHeader />
+        <Header />
         <div className="section">
           <Container>
             <FollowMe />
@@ -36,7 +36,7 @@ const Home = () => {
             <Portofolio />
           </Container>
         </div>
-        <DefaultFooter />
+        <Footer />
       </div>
     </>
   );
