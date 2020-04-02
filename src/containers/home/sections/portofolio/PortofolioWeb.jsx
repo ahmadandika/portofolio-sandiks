@@ -7,7 +7,6 @@ const listOne = [
     img: 'legocar.png',
     title: 'Virtual Showroom',
     tag: ['React JS', 'SCSS', 'HTML', 'REST API'],
-    url: 'https://dev.legocar.co.id/'
   },
   {
     id: 2,
