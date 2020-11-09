@@ -6,7 +6,7 @@ const listOne = [
     id: 1,
     img: 'legocar.png',
     title: 'Virtual Showroom',
-    tag: ['React JS', 'SCSS', 'HTML', 'REST API'],
+    tag: ['React JS', 'SCSS', 'HTML', 'REST API']
   },
   {
     id: 2,
@@ -32,6 +32,19 @@ const listOne = [
     title: 'Steadfast',
     tag: ['Wordpress', 'CSS', 'HTML'],
     url: 'https://www.steadfastmoneytransfer.com/'
+  },
+  {
+    id: 6,
+    img: 'kami.png',
+    title: 'KAMI',
+    tag: ['React JS', 'SCSS', 'HTML', 'Next JS'],
+    url: 'https://kami.id'
+  },
+  {
+    id: 7,
+    img: 'halobro.png',
+    title: 'Halobro',
+    tag: ['React JS', 'SCSS', 'HTML', 'Next JS', 'Pusher']
   }
 ];
 
@@ -75,6 +88,12 @@ const listTwo = [
     title: 'Jomblo',
     tag: ['React JS', 'CSS', 'HTML'],
     url: 'https://jomblo.com/'
+  },
+  {
+    id: 7,
+    img: 'sidelybuilder.png',
+    title: 'Sidely Form Builder',
+    tag: ['React JS', 'CSS', 'HTML', 'React drag n drop']
   }
 ];
 

@@ -25,6 +25,12 @@ const listOne = [
     img: 'admin-ninkatec.png',
     title: 'Ninkatec',
     tag: ['React JS', 'SCSS', 'HTML', 'REST API', 'Socket.io']
+  },
+  {
+    id: 5,
+    img: 'admin-paslon.png',
+    title: 'Paslon',
+    tag: ['React JS', 'SCSS', 'HTML', 'REST API', 'Pusher']
   }
 ];
 
@@ -42,9 +48,15 @@ const listTwo = [
     tag: ['React JS', 'SCSS', 'HTML', 'REST API']
   },
   {
-    id: 2,
+    id: 3,
     img: 'admin-jomblo.png',
     title: 'Jomblo Admin',
+    tag: ['React JS', 'SCSS', 'HTML', 'REST API']
+  },
+  {
+    id: 4,
+    img: 'admin-mandiri.png',
+    title: 'Mandiri Sekuritas Admin',
     tag: ['React JS', 'SCSS', 'HTML', 'REST API']
   }
 ];
