@@ -45,6 +45,13 @@ const listOne = [
     img: 'halobro.png',
     title: 'Halobro',
     tag: ['React JS', 'SCSS', 'HTML', 'Next JS', 'Pusher']
+  },
+  {
+    id: 7,
+    img: 'halu.png',
+    title: 'Halu',
+    tag: ['React JS', 'Tailwind CSS', 'HTML', 'Next JS'],
+    url: 'https://halu.co'
   }
 ];
 
