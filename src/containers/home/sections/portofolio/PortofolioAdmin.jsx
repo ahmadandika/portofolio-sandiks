@@ -4,30 +4,36 @@ import { Row, Col, Badge } from 'reactstrap';
 const listOne = [
   {
     id: 1,
+    img: 'admin-golden.png',
+    title: 'Golden Bird Admin',
+    tag: ['React JS', 'SCSS', 'HTML', 'REST API', 'Leaflet js OSM']
+  },
+  {
+    id: 2,
     img: 'admin-amartha.png',
     title: 'Amartha Admin',
     tag: ['React JS', 'SCSS', 'HTML', 'REST API']
   },
   {
-    id: 2,
+    id: 3,
     img: 'admin-riliv.png',
     title: 'Riliv Admin',
     tag: ['React JS', 'SCSS', 'HTML', 'REST API']
   },
   {
-    id: 3,
+    id: 4,
     img: 'admin-daxium-chat.png',
     title: 'Daxium Admin Chat',
     tag: ['React JS', 'SCSS', 'HTML', 'REST API', 'Firebase']
   },
   {
-    id: 4,
+    id: 5,
     img: 'admin-ninkatec.png',
     title: 'Ninkatec',
     tag: ['React JS', 'SCSS', 'HTML', 'REST API', 'Socket.io']
   },
   {
-    id: 5,
+    id: 6,
     img: 'admin-paslon.png',
     title: 'Paslon',
     tag: ['React JS', 'SCSS', 'HTML', 'REST API', 'Pusher']
