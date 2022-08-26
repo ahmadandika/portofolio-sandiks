@@ -32,12 +32,6 @@ const listOne = [
     title: 'Ninkatec',
     tag: ['React JS', 'SCSS', 'HTML', 'REST API', 'Socket.io']
   },
-  {
-    id: 6,
-    img: 'admin-paslon.png',
-    title: 'Paslon',
-    tag: ['React JS', 'SCSS', 'HTML', 'REST API', 'Pusher']
-  }
 ];
 
 const listTwo = [
@@ -61,10 +55,16 @@ const listTwo = [
   },
   {
     id: 4,
-    img: 'admin-mandiri.png',
-    title: 'Mandiri Sekuritas Admin',
-    tag: ['React JS', 'SCSS', 'HTML', 'REST API']
+    img: 'admin-paslon.png',
+    title: 'Paslon',
+    tag: ['React JS', 'SCSS', 'HTML', 'REST API', 'Pusher']
   }
+  // {
+  //   id: 4,
+  //   img: 'admin-mandiri.png',
+  //   title: 'Mandiri Sekuritas Admin',
+  //   tag: ['React JS', 'SCSS', 'HTML', 'REST API']
+  // }
 ];
 
 const PortofolioAdmin = () => (
