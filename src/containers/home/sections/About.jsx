@@ -19,7 +19,7 @@ const About = () => (
         color="default"
         onClick={() => {
           if (process.browser) {
-            window.open('/images/cv-ahmadandika.pdf');
+            window.open('/images/cv-ahmadandika-2022.pdf');
           }
         }}
       >
