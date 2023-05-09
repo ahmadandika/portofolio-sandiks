@@ -27,7 +27,7 @@
     "imagemin-optipng": "^7.0.0",
     "imagemin-svgo": "^7.0.0",
     "jwt-decode": "^2.2.0",
-    "libphonenumber-js": "^1.7.26",
+    "libphonenumber-js": "^1.10.30",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "multer": "^1.4.2",
